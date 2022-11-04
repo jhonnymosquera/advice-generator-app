@@ -1,0 +1,21 @@
+//Tipografica
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+$fuente_principal: 'Manrope', sans-serif;
+// colores
+$negro: #000000;
+$blanco: #ffffff;
+
+// Colores principales
+$cian-claro: hsl(193, 38%, 86%);
+$verde-neon: hsl(150, 100%, 66%);
+
+// Colores secundarios
+$grisaceo: hsl(217, 19%, 38%);
+$grisaceo-o: hsl(217, 19%, 24%);
+$azul-o: hsl(218, 23%, 16%);
+
+$movil: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;
