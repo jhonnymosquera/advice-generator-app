@@ -3,7 +3,7 @@ import dividerDesktop from '../assets/divider-desktop.svg';
 import dividerMobile from '../assets/divider-mobile.svg';
 import { useEffect, useState } from 'react';
 import getAdvices from '../data/adviceSlipApi';
-import Loading from '../components/loadings/Loading';
+import Loading from '../components/Loading';
 import iconDice from '../assets/icon-dice.svg';
 
 function ContextProvider({ children }) {

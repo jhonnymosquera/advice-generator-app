@@ -26,3 +26,5 @@ function dev(done) {
 exports.css = css;
 exports.dev = parallel(dev);
 exports.plumber = plumber;
+
+//npx gulp dev
