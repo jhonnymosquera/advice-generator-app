@@ -45,4 +45,4 @@ Los usuarios deben ser capaces de:
 ## Author
 
 - Frontend Mentor - [@jhonnymosquera](https://www.frontendmentor.io/profile/jhonnymosquera)
-- Gmail - [jhonnymosquera16@gmail.com](https://www.gmail.com)
+- Gmail - [jhonnymosquera.web@gmail.com](https://www.gmail.com)
