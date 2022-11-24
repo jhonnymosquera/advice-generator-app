@@ -7,7 +7,9 @@ import Loading from '../components/Loading';
 import iconDice from '../assets/icon-dice.svg';
 
 function ContextProvider({ children }) {
-	const [advices, setAdvices] = useState('loading');
+	const loading = 'loading';
+
+	const [advices, setAdvices] = useState(loading);
 	const [call, setCall] = useState(0);
 
 	useEffect(() => {
@@ -17,7 +19,7 @@ function ContextProvider({ children }) {
 	}, [call]);
 
 	function callAdvices() {
-		setAdvices('loading');
+		setAdvices(loading);
 
 		setTimeout(() => {
 			setCall(call + 1);
@@ -27,7 +29,7 @@ function ContextProvider({ children }) {
 	const { id, advice } = advices;
 
 	const adviceId = id === undefined ? '00' : id;
-	const advicesDescription = advices === 'loading' ? <Loading /> : <h3>{advice}</h3>;
+	const advicesDescription = advices === loading ? <Loading /> : <h3>{advice}</h3>;
 
 	return (
 		<Context.Provider
